@@ -1,5 +1,5 @@
 {
-    "name": "oauth2-mlh",
+    "name": "bobertforever/oauth2-mlh",
     "description": "My-MLH OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
     "license": "MIT",
     "authors": [
