@@ -1,0 +1,30 @@
+{
+    "name": "oauth2-mlh",
+    "description": "My-MLH OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert Lynch",
+            "email": "robertlynch2012@gmail.com",
+            "homepage": "https://github.com/BobertForever"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authorisation",
+        "mlh",
+        "mh-mlh"
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "league/oauth2-client": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "League\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
