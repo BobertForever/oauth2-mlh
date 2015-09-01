@@ -55,11 +55,101 @@ class MLHUser implements ResourceOwnerInterface
     /**
      * Get email address.
      *
-     * @return string|null
+     * @return string
      */
     public function getEmail()
     {
         return $this->response['email'];
+    }
+
+    /**
+     * Get graduation date.in year-month-day format.
+     *
+     * @return string
+     */
+    public function getGraduation()
+    {
+        return $this->response['graduation'];
+    }
+
+    /**
+     * Get major.
+     *
+     * @return string
+     */
+    public function getMajor()
+    {
+        return $this->response['major'];
+    }
+
+    /**
+     * Get T-shirt size
+     *
+     * @return string
+     */
+    public function getShirtSize()
+    {
+        return $this->response['shirt_size'];
+    }
+
+    /**
+     * Get any dietary restriction
+     *
+     * @return string
+     */
+    public function getDietaryRestriction()
+    {
+        return $this->response['dietary_restrictions'];
+    }
+
+    /**
+     * Get any special needs
+     *
+     * @return string
+     */
+    public function getSpecialNeeds()
+    {
+        return $this->response['special_needs'];
+    }
+
+    /**
+     * Get birthday in year-month-day format
+     *
+     * @return string
+     */
+    public function getBirthday()
+    {
+        return $this->response['date_of_birth'];
+    }
+
+    /**
+     * Get gender
+     *
+     * @return string
+     */
+    public function getGender()
+    {
+        return $this->response['gender'];
+    }
+
+    /**
+     * Get phone number
+     *
+     * @return string
+     */
+    public function getPhoneNumber()
+    {
+        return $this->response['phone_number'];
+    }
+
+    /**
+     * Get school
+     *
+     * @return string
+     */
+    public function getSchool()
+    {
+        return $this->response['school']['name'];
     }
 
     /**
