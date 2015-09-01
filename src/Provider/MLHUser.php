@@ -97,7 +97,7 @@ class MLHUser implements ResourceOwnerInterface
      *
      * @return string
      */
-    public function getDietaryRestriction()
+    public function getDietaryRestrictions()
     {
         return $this->response['dietary_restrictions'];
     }
